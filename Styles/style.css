@@ -87,6 +87,15 @@ header{
     font-weight: 600;
     line-height: 22px;
 }
+.header-header{
+    width: 622px;
+    height: 201px;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
 
 
 
@@ -402,11 +411,6 @@ display: flex;
     padding: 0px;
     align-self: stretch;
     margin: 32px 0px;
-}
-.checking{
-    width:;
-    padding: ;
-    margin: ;
 }
 
 
