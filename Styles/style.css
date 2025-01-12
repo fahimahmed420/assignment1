@@ -10,7 +10,7 @@ background-color: red;
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 24px 160px 24px 160px;
+    padding: 24px 140px 24px 140px;
     align-items: center;
 }
 .para{
@@ -95,7 +95,7 @@ header{
     width: 1280px;
     margin: auto;
     text-align:left;
-    padding: 50px 20px;
+    padding: 50px 0px;
 
 }
 .pillers-container{
@@ -207,10 +207,6 @@ align-items: center;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     padding: 48px 24px 48px 24px;
     margin: 0px 24px;
 }
@@ -302,6 +298,7 @@ background: rgba(255, 255, 255, 0.1);
     text-align:center;
     background-color: rgb(198, 228, 214);
     padding: 10px 14px 10px 14px;
+    border-radius: 5px;
 }
 
 
@@ -318,6 +315,12 @@ background: rgba(255, 255, 255, 0.1);
     gap: 32;
     padding: 0px;
     margin: auto;
+}
+.time-date{
+    display: flex;
+    color: rgba(14, 14, 14, 0.7);
+    padding: 10px 0 0 0;
+    gap: 30px;
 }
 .read-more-button{
     width: 139px;
@@ -351,15 +354,21 @@ background: rgba(255, 255, 255, 0.1);
 .news-sec-img{
     width: 408px;
     height: 306px;
-    margin: 0px 32px;
+    margin: 0px 32px 0 0;
+    border-radius: 24px;
+}
+.news-sec2-img{
+    width: 408px;
+    height: 306px;
+    margin: 0px 0 32px 0;
     border-radius: 24px;
 }
 .section1-news-cotainers{
     width: 744px;
-    height: 210px;
+    /* height: 210px; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     gap: 12;
     padding: 0px;
@@ -369,13 +378,13 @@ background: rgba(255, 255, 255, 0.1);
 
 .news-section2{
     width: 1280px;
-    height: 402px;
+    /* height: 402px; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 32;
-    padding: 48px;
+    padding: 48px 48px 48px 4px;
     align-self: stretch;
     flex-grow: 0;
     margin: 24px 0px;
@@ -383,7 +392,22 @@ background: rgba(255, 255, 255, 0.1);
     background: rgb(255, 255, 255);
     flex-direction: row-reverse;
 }
-
+.section2-news-cotainers{
+width: 780px;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+    align-self: stretch;
+    margin: 32px 0px;
+}
+.checking{
+    width:;
+    padding: ;
+    margin: ;
+}
 
 
 /* Donate section */
@@ -490,11 +514,11 @@ margin: 80px auto;
     background: rgb(255, 255, 255);
 }
 .sub-button{
-    border: #006A50;
+    border: none;
 width: 150px;
 height: 56px;
 gap: 48;
-padding: 17px 34px 17px 34px;
+padding: 13px 34px 17px 34px;
 border-radius: 0px 8px 8px 0px;
 background: rgb(0, 106, 80);
 color: white;
